@@ -1,10 +1,12 @@
 import "./App.css";
+import View from "./page/View";
+import { Container } from "./style/common";
 
 function App() {
   return (
-    <>
-      <h2>asd</h2>
-    </>
+    <Container>
+      <View />
+    </Container>
   );
 }
 
